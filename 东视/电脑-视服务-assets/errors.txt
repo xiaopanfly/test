@@ -1,0 +1,3 @@
+[2018-05-12 14:32:05] layer "zhuangshi-beijing.jpg": Duplicate path: zhuangshi-beijing.jpg
+[2018-05-12 14:32:33] layer "联系邮箱：sd-dongshi@126.com": Unsupported extension: com
+[2018-05-12 14:32:15] layer "logo.png 拷贝": Expected end of input but "\u62F7" found.

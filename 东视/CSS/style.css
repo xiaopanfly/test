@@ -1,0 +1,1091 @@
+@media screen and (min-width:1200px){
+	.Top,.Content{
+		width:1200px;
+		min-height:2px;
+	/*	border:solid 1px gray;*/
+		/*margin:0 auto;*/
+	}
+	.Header{
+		width:100%;
+		background:#f2f2f2;
+	}
+	.Top,.Content,.footer{
+		width:1200px;
+		min-height:2px;
+	}
+	.Top{
+		text-align:center;
+	}
+	.lgImg{
+		margin-top:25px;
+		display:inline-block;
+		margin-right:18px;
+		margin-left:10px;
+	}
+	.lgImg img{
+		float:left;
+		width:364px;
+		height:54px;
+	}
+	.Top .lgImg i{
+		width:1px;
+		height:100px;
+		border-right:solid 1px #bfbfbf;
+	}
+	.Top .Top_right {
+		margin-top:25px;
+		float:right;
+		margin-right:20px;
+	}
+	.line{
+	    display: inline-block;
+	    height: 40px;
+	    border: solid 1px #797979;
+	    margin-right: 17px;
+	}
+	
+	.Top .middle{
+		margin-top:2.8%;
+		margin-right:165px;
+		float:right;
+		text-align: left;
+	}
+	.Top .middle .span1 {
+		font-size:19px;
+		margin-top:10px;
+		letter-spacing: 0.4px;
+	}
+	 .Top .middle .span2{
+		font-size:15px;
+		color:#797979;
+	}
+	.Top .Top_right span{
+		margin-left:16px;
+		margin-left:5px;
+		position: relative;
+		bottom: 13px;
+		font-family:'微软雅黑';
+	}
+	.ask{
+		font-family:'微软雅黑';
+		font-size:18px;
+		color:#797979;
+		font-weight:bold;
+	}
+	.num{
+		font-family:'微软雅黑';
+		font-size:28px;
+		color:#da251d;
+		font-weight:bold;
+	}
+	.Header ul li a{
+		font-size:18px;
+		display:inline-block;
+		color:#333;
+	}
+	.Content{
+		clear:both;
+	}
+	.Header ul{
+		width:75%;
+		margin:0px auto;
+		height:55px;
+		margin-top:26px;
+	}
+	.Header ul li{
+		line-height:55px;
+		display:block;
+		font-size:18px;
+		width:128px;
+		width:16.6%;
+		color:#333;
+		float:left;
+		margin:0px auto;
+		/*margin-left:50px;*/
+		text-align:center;
+	}
+	.Header ul li a{
+		display:block;
+		width:128px;
+		height:55px;
+	}
+	.Header ul li:hover a{
+		color:#FFFEFE;
+		cursor:pointer;
+	 	background:#DA251D;
+	}
+	.Header ul li:visit a{
+		color:#FFFEFE;
+		cursor:pointer;
+	 	background:#DA251D;
+	}
+	/*.Header ul li:hover a{
+		color:#fff;
+	}*/
+	/************首页BANNER**********/
+	.index-banner{
+		width:100%;
+		overflow: hidden;
+		position: relative;
+	}
+	.index-banner .swiper-button-prev{
+		background-image:url(../Image/zuojiantou.png);
+	}
+	.index-banner .swiper-button-next{
+		background-image:url(../Image/youjiantou.png);
+	}
+	.index-banner .swiper-pagination-bullet-active{
+		background:#646464;
+	}
+	/*装修品牌*/
+		.pp_title{
+			display:block;
+			font-size:36px;
+			color:#333;
+			margin-bottom:56px;
+			text-align:center;
+		}
+		.content_2_zxpp{
+			/*background: #f2f2f2;*/
+			margin-top:30px;
+			/*padding-top:80px;*/
+		}
+		.content_2_zxpp ul{
+			margin:0 auto;
+			text-align:center;
+			width:100%;
+		}
+		.content_2_zxpp ul li{
+			display:block;
+			float:left;
+			margin-right:130px;
+			color:#797979;
+			margin-bottom:60px;
+		}
+		.content_2_zxpp ul li:nth-child(1){
+			width:136px;
+		}
+		.content_2_zxpp ul li:last-child{
+			margin-right:0;
+		}
+		.content_2_zxpp ul li div{
+			margin-bottom:16px;
+		}
+		.content_2_zxpp ul li div p{
+			font-size:24px;
+			color:#DA251D;
+			display: inline-block;
+			margin-left:6px;
+		}
+		/*一体化服务*/
+		.content_3_ythfw{
+			clear:both;
+			width:100%;
+			min-height:600px;
+			display:inline-block;
+			background:url('../Image/yitihuabeijing.png');
+		}
+		.content_3_ythfw .title span{
+			display:block;
+			width:100%;
+			text-align:center;
+		}
+		.content_3_ythfw .title span:nth-child(1){
+			display:inline-block;
+			color:#fff;
+			margin-top:77px;
+			margin-bottom:7px;
+			font-size:36px;
+		}
+		.content_3_ythfw .title span:last-child{
+			color:#aeaeae;
+			font-size:16px;
+		}
+		.content_3_ythfw .fwnr{
+			display:block;
+			position:relative;
+			width:1260px;
+			min-height:10px;
+		}
+		.content_3_ythfw .fwnr ul li {
+			float:left;
+		}
+		.content_3_ythfw .fwnr ul li .tituhuatupian:hover .opa{	
+			position:absolute;
+			top:44px;
+			opacity:0.5;
+			width:332px;
+			height:221px;
+			margin:24px;
+			filter: alpha(opacity=30); 
+			background-color:#000;
+		}
+		.content_3_ythfw .fwnr ul li .tituhuatupian{
+			
+			border:solid 4px #00a0e9;
+			width:380px;
+			min-height:270px;
+			margin-top:40px;
+			margin-left: 25px;
+			margin-right:auto;
+			cursor: default;
+		}
+		.content_3_ythfw .fwnr ul li .tituhuatupian:hover {
+			border:solid 4px #4EBDF0;
+		}
+		.content_3_ythfw .fwnr ul li .tituhuatupian img{
+			width:332px;
+			height:221px;
+			margin:24px;
+			position:absolute;
+			top:0px;
+			z-index:10;
+		}
+		.content_3_ythfw .fwnr ul li span{
+			display:inline-block;
+			width:100%;
+			height:100%;
+			text-align:center;
+			color:#4EBDF0;
+		}
+		.content_3_ythfw .fwnr ul li span:first-child{
+			margin-top:30px;
+			margin-bottom:19px;
+			font-size:24px;
+			color:#00a0e9;
+		}
+		.content_3_ythfw .fwnr ul li:hover span:first-child{
+			color:#4EBDF0;
+		}
+		.content_3_ythfw .fwnr ul li:hover span:last-child{
+			color:#4EBDF0;
+		}
+		.content_3_ythfw .fwnr ul li div span:last-child{
+			margin-bottom:80px;
+			font-size:16px;
+			color:#00a0e9;
+			}
+	/*历程见证*/
+	/*.line_left{
+		width:;
+	}*/
+	hr{
+		display:inline-block;
+		width:197px;
+		vertical-align: middle;
+	}
+	.line_left{
+		margin-right:-5px;
+	}
+	.boxrr,.boxr{
+		border:solid 1px #DA251D;
+		display:inline-block;
+		width:10px;
+		height:10px;
+		/*vertical-align: middle;*/
+		background:#DA251D;
+	}
+	.boxrr{
+		margin-right:20px;
+
+	}
+	.boxr{
+		margin-left:10px;
+
+	}
+	.content_4_lsjz{
+		margin-top:80px;
+	}
+	.Content .content_4_lsjz div .lsjz_title{
+		display:inline-block;
+		width:1200px;
+		font-size:20px;
+		text-align:center;
+		margin:77px auto 38px auto;
+	}
+	.content_4_lsjz .zs-head strong{
+		color:#333;
+	}
+	.content_4_lsjz .zs-head .zs-right{
+		right:17.5%;
+	}
+	.content_4_lsjz .zs-head .zs-left{
+		left:17.5%;
+	}
+	.Content .content_4_lsjz  .lichengtu{
+		    display: inline;
+	    	margin-left: -125px;
+	}
+	.Content .content_4_lsjz div ul{
+		float:left;
+		display:inline-block;
+		margin-left:30%;
+		line-height:69px;
+	}
+	.Content .content_4_lsjz div ul li{
+		color:#da251d;
+		font-size:18px;
+	}
+	.Content .content_4_lsjz div ul li:nth-child(1){
+		margin-left:-30px;
+	}
+	.Content .content_4_lsjz div ul li:nth-child(2){
+		margin-left:-90px;
+	}
+	.Content .content_4_lsjz div ul li:nth-child(3){
+		margin-left:-115px;
+	}
+	.Content .content_4_lsjz div ul li:nth-child(4){
+		margin-left:-163px;
+	}
+	.Content .content_4_lsjz div ul li:nth-child(5){
+		margin-left:-196px;
+	}
+	.Content .content_4_lsjz div ul li:nth-child(6){
+		margin-left:-50px;
+	}
+	.Content .content_4_lsjz div ul li:nth-child(7){
+		margin-left:25px;
+		margin-bottom:42px;
+	}
+	.Content .content_4_lsjz div ul li span{
+		margin-right:14px;
+		color:#333;
+		font-size:16px;
+	}
+	/*服务全国*/ 
+	.content_6_fwqg{
+		clear:both;
+		display:inline-block;
+	}
+	.content_6_fwqg img{
+		display:block;
+		width:673px;
+		height:537px;
+		margin-top:54px;
+		float:left;
+	}
+	.content_6_fwqg .fw_right{
+		float:right;
+		margin-top:154px;
+		margin-left:16px;
+		width:42%;
+		/*color:red;*/
+	}
+	.content_6_fwqg .fw_right .content_fw .fuwu{
+		color:#333;
+		font-size:32px;
+	}
+	.content_6_fwqg .fw_right .content_fw .fuwu_dianhua{
+		font-size:38px;
+		color:#DA251D;
+		font-weight: bolder;
+	}
+	.content_6_fwqg .fw_right .fw_line{
+	    margin-top:24px;
+	    margin-bottom:24px;
+	    width:500px;
+	    border:2px #E3E8EE solid  ;
+	}
+	.content_6_fwqg .fw_right .fwdq .fwdian{
+		display:block;
+		color:#333;
+		font-size:27px;
+		margin-bottom:20px;
+	}
+	.content_6_fwqg .fw_right .fwdq ul{
+		display:block;
+	}
+	.content_6_fwqg .fw_right .fwdq ul li{
+		display:inline-block;
+		width:450px;
+		line-height:-40px;
+		vertical-align: top;
+		margin:9px auto;
+	}
+	.content_6_fwqg .fw_right .fwdq ul li a{
+		display:inline-block;
+		text-decoration:none;
+		color:#333;
+		margin-right:10px;
+		/*padding-top:18px;*/
+		height:20px;
+	}
+	.content_6_fwqg .fw_right .fwdq ul li a:hover{
+		color:#00A0E9;
+	}
+	.content_6_fwqg .fw_right .fwdq ul li span{
+		/*display:inline-block;*/
+		margin-bottom:18px;
+		bottom-left:24px;
+		height:20px;
+		color:#333;
+	}
+	/************首页荣誉**********/
+	.content_5_dsry {
+		background-color:#F2F2F2;
+		margin:0px auto;
+		padding:80px 0;
+	}
+	.content_5_dsry .zs-head strong{
+		color:#333333;
+	}
+	.content_5_dsry .ry_big_box{
+		width:1200px;
+	}
+	.ry_small_box{
+		width:100%;
+		overflow: hidden;
+		height:300px;
+	}
+	.ry_big_box{
+		position: relative;
+	}
+	.ry_big_box .ry-prev{
+		position: absolute;
+		width:80px;
+		height:54px;
+		top:40%;
+		left:-60px;
+		cursor: pointer;
+	}
+	.ry_big_box .ry-next{
+		position: absolute;
+		width:80px;
+		height:54px;
+		top:40%;
+		right:-60px;
+		cursor: pointer;
+		z-index: 99;
+	}
+	.ry_big_box .ry-next:before,
+	.ry_big_box .ry-prev:before{
+		content:'';
+		display:block;
+		width:0;
+		height:100%;
+		position: absolute;
+		background:#da251d;
+		opacity: 0.5;
+		top:0;
+		left:40px;
+		z-index:99;
+		z-index: 1;
+		transition:all 0.3s ease;
+	}
+	.ry_big_box .ry-next:after,
+	.ry_big_box .ry-prev:after{
+		content:'';
+		display:block;
+		width:0;
+		height:100%;
+		position: absolute;
+		background:#da251d;
+		opacity: 0.5;
+		top:0;
+		right:40px;
+		z-index:1;
+		transition:all 0.3s ease;
+	}
+	.ry_big_box .ry-next:hover:before,
+	.ry_big_box .ry-next:hover:after,
+	.ry_big_box .ry-prev:hover:after,
+	.ry_big_box .ry-prev:hover:before{
+		width:40px;
+	}
+	.ry_big_box .ry-next:hover .show,
+	.ry_big_box .ry-prev:hover .show{
+		display:none;
+	}
+	.ry_big_box .ry-next:hover .show2,
+	.ry_big_box .ry-prev:hover .show2{
+		display:block;
+		z-index:999;
+	}
+	.ry_img{
+		position: relative;
+		height:300px !important;
+		overflow: hidden;
+	}
+	.ry_img .ry_con{
+		position: absolute;
+		bottom:0;
+		width:184px;
+		height:60px;
+		left:8px;
+		background:rgba(0,0,0,0.5);
+		visibility: hidden;
+	}
+	.ry_img  img{
+		height:100%;
+	}
+	@-webkit-keyframes ry_img{
+		0%{
+			bottom:-184px;
+			visibility: hidden;
+		}
+		100%{
+			bottom:0;
+			visibility: visible;
+		}
+	}
+	.ry_img:hover .ry_con{
+		-webkit-animation: 0.3s ease;
+		visibility: visible;
+	}
+	.ry_img .ry_con p{
+		color:#fff;
+		text-align: center;
+	}
+	.ry_img .ry_con p.ry_name{
+		margin-bottom:10px;
+		margin-top:8px;
+	}
+	.ry-next img,
+	.ry-prev img{
+		position:absolute;
+		top:13px;
+		left:33px;
+		z-index: 99;
+	}
+	.ry-next .show2,
+	.ry-prev .show2{
+		display:none;
+	}
+	/************首页案例**********/
+	.content_7_fwal{
+		width:1200px;
+		margin:80px auto;
+	}
+	.content_7_fwal .zs-head strong{
+		color:#333333;
+	}
+	.fwal_cat{
+		width:60%;
+		margin:0 auto;
+	}
+	.fwal_cat ul li{
+		width:33.3%;
+		float:left;
+		text-align: center;
+		cursor: pointer;
+	}.fwal_cat ul li:hover,
+	.fwal_cat ul li.hover{
+		color:#da251d;
+	}
+	.fwal_cat ul li.hover i{
+		background:#da251d;
+		display:inline-block;
+		width:5px;
+		height:5px;
+		margin-right:5px;
+		vertical-align: middle;
+	}
+	.fwal_con{
+		margin-top:40px;
+	}
+	.fwal_con li{
+		float:left;
+		width:289px;
+		margin-right:14px;
+		margin-bottom:40px;
+	}
+	.fwal_con .case_img{
+		display:block;
+		width:100%;
+		height:100%;
+		position: relative;
+		overflow: hidden;
+	}
+	.fwal_con li:nth-child(4n){
+		margin-right:0;
+	}
+	.fwal_con li img{
+		width:100%;
+		height:194px;
+	}
+	.fwal_con .case_name{
+		display:block;
+		text-align: center;
+		font-size: 18px;
+		color:#333333;
+	}
+	.fwal_con .shade{
+		position: absolute;
+		width:100%;
+		height:194px;
+		top:0;
+		left:0;
+		background:#000;
+		opacity: 0.5;
+		visibility: hidden;
+	}
+	.fwal_con .shade_con{
+		position: absolute;
+		width:100%;
+		height:194px;
+		top:0;
+		left:0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		visibility: hidden;
+	}
+	.fwal_con .shade_con p{
+		color:#fff;
+		font-size:14px;
+		margin:0 12px;
+	}
+	@-webkit-keyframes case-shade{
+		0%{
+			top:194px;
+			visibility: hidden;
+		}
+		100%{
+			top:0;
+			visibility: visible;
+		}
+	}
+	.fwal_con li:hover .shade_con,
+	.fwal_con li:hover .shade{
+		-webkit-animation:case-shade 0.3s ease;
+		visibility: visible;
+	}
+	.fwal_con li:hover .case_name{
+		color:#da251d;
+	}
+	.content_7_fwal .more{
+		background:#00a0e9;
+	}
+	/************首页预约**********/
+	.content_8_yuyue{
+		padding:80px 0;
+		background-image:url(../Image/baojia-beijing.jpg);
+		background-size:100% 100%;
+	}
+	.content_8_yuyue .yy_con{
+		width:1200px;
+		margin:0 auto;
+	}
+	.content_8_yuyue .yy_left{
+		width:65%;
+		float:left;
+		text-align: right;
+		padding-top:80px;
+	}
+	.content_8_yuyue .yy_left .case1{
+		display:inline-block;
+		width:220px;
+		height:88px;
+		color:#fff;
+		border: 4px solid #da251d;
+		background:rgba(255,255,255,0.1);
+		line-height: 88px;
+		color:#da251d;
+		font-size:32px;
+		text-align: center;
+	}
+	.content_8_yuyue .yy_left i{
+		display:inline-block;
+		width:2px;
+		height:96px;
+		background:#fff;
+		margin:0 58px;
+		vertical-align: middle;
+		margin-top:-12px;
+	}
+	.content_8_yuyue .yy_left .case2{
+		display:inline-block;
+		width:220px;
+		height:88px;
+		color:#fff;
+		border: 4px solid #da251d;
+		background:#da251d;
+		line-height: 88px;
+		color:#fff;
+		font-size:32px;
+		text-align: center;
+		margin-right:98px;
+	}
+	.content_8_yuyue .yy_left p{
+		text-align: center;
+		margin-top:40px;
+		line-height: 87px;
+	}
+	.content_8_yuyue .yy_left p .font1{
+		color:#da251d;
+		font-size:54px;
+		margin-right:27px;
+		margin-left:-50px;
+	}
+	.content_8_yuyue .yy_left p .font2{
+		color:#da251d;
+		font-size:32px;
+	}
+	.content_8_yuyue .yy_left p span{
+		color:#f89515;
+		font-size: 32px
+	}
+	.content_8_yuyue .yy_right{
+		width:367px;
+		height:343px;
+		display:block;
+		float:left;
+	}
+	/*************首页LOGO墙**********/
+	.content_11_fwkhLG{
+		margin:80px 0;
+	}
+	.headtitle,
+	.content_11_fwkhLG span{
+		display:block;
+		text-align: center;
+		color:#333;
+		font-size:36px;
+		margin-top:80px;
+		margin-bottom:40px;
+	}
+	.content_11_fwkhLG ul li{
+		width:200px;
+		height:110px;
+		margin-right:50px;
+		overflow: hidden;
+		float:left;
+		margin-top:20px;
+	}
+	.content_11_fwkhLG ul li:nth-child(5n){
+		margin-right:0;
+	}
+	.content_11_fwkhLG ul li img{
+		width:100%;
+	}
+	/************首页流程**********/
+	.content_9_fwlc{
+		background-image:url('../Image/liucheng-beijing.jpg');
+		padding-top: 80px;
+	    height: 460px;
+	    background-size: 100% 100%;
+	}
+	.content_9_fwlc .zs-head strong{
+		margin-top: -80px;
+   	    padding-top: 80px;
+		color:#333333;
+	}
+	.content_9_fwlc a{
+		margin-top:40px;
+	}
+	.content_9_fwlc .fwlctupian{
+		margin:0px auto;
+		display:block;
+	}
+	a.more{
+		display:block;
+		width:170px;
+		height:50px;
+		color:#fff;
+		border-radius: 4px;
+		line-height: 50px;
+		text-align: center;
+		background:#da251d;
+	}
+	/************首页品牌*********/
+	.content_10_ppyl .pp_1{
+		display:flex;
+		margin-bottom:20px;
+	}
+	.content_10_ppyl .pp_1 img{
+		width:300px;
+		height:200px;
+	}
+	.content_10_ppyl .pp_1 .pp_con{
+		width:850px;
+		margin-left:45px;
+		position:relative;
+	}
+	.content_10_ppyl .pp_1:nth-child(2n-1)  .pp_con{
+		margin-left:0;
+		margin-right:45px;
+		padding-left:45px;
+	}
+	.content_10_ppyl .pp_1:nth-child(2) .pp_con::before{
+		position:absolute;
+		display:block;
+		content:'1';
+		width:100px;
+		color:#ffedec;
+		font-size:162px;
+		font-style:italic;
+		top:-10px;
+		left:-35px;
+		opacity: 0.8;
+		font-weight:bolder;
+		z-index: -1;
+	}
+	.content_10_ppyl .pp_1:nth-child(3) .pp_con::before{
+		position:absolute;
+		display:block;
+		content:'2';
+		width:100px;
+		color:#ffedec;
+		font-size:162px;
+		font-style:italic;
+		top:-10px;
+		left:-35px;
+		opacity: 0.8;
+		font-weight:bolder;
+		z-index: -1;
+	}
+	.content_10_ppyl .pp_1:nth-child(4) .pp_con::before{
+		position:absolute;
+		display:block;
+		content:'3';
+		width:100px;
+		color:#ffedec;
+		font-size:162px;
+		font-style:italic;
+		top:-10px;
+		left:-35px;
+		opacity: 0.8;
+		font-weight:bolder;
+		z-index: -1;
+	}
+	.content_10_ppyl .pp_1:nth-child(5) .pp_con::before{
+		position:absolute;
+		display:block;
+		content:'4';
+		width:100px;
+		color:#ffedec;
+		font-size:162px;
+		font-style:italic;
+		top:-10px;
+		left:-35px;
+		opacity: 0.8;
+		font-weight:bolder;
+		z-index: -1;
+	}
+	.content_10_ppyl .pp_1:nth-child(6) .pp_con::before{
+		position:absolute;
+		display:block;
+		content:'5';
+		width:100px;
+		color:#ffedec;
+		font-size:162px;
+		font-style:italic;
+		top:-10px;
+		left:-35px;
+		opacity: 0.8;
+		font-weight:bolder;
+		z-index: -1;
+	}
+	.content_10_ppyl .pp_con span{
+		display:block;
+		margin-top:74px;
+		font-size:24px;
+		text-indent: 2em;
+		color:333;
+		margin-bottom:18px;
+	}
+	.content_10_ppyl .pp_con p{
+		color:#797979;
+		font-size:16px;
+		text-indent:3em;
+	}
+	/************首页装饰*********/
+	.zs-head{
+		width:1200px;
+		position:relative;
+		text-align: center;
+		margin-bottom:40px;
+	}
+	.zs-head .zs-left,
+	.zs-head .zs-right{
+		position:absolute;
+		top:20px;
+	}
+	.zs-head .zs-left{
+		left:25%;
+	}
+	.zs-head .zs-right{
+		right:24.5%;
+	}
+	.zs-head strong{
+		font-size:36px;
+		color:#fff;
+		font-weight: normal;
+	}
+	.content_12_zhuangshi{
+		background-image:url(../Image/zhuangshi-beijing.jpg);
+		padding:80px 0;
+		background-size:100% 100%;
+	}
+	.content_12_zhuangshi ul{
+		width:1200px;
+		margin:0 auto;
+	}
+	.content_12_zhuangshi ul li{
+		float:left;
+		width:20%;
+		color:#fff;
+		margin-bottom:50px;
+	}
+	.content_12_zhuangshi ul li img,
+	.content_12_zhuangshi ul li span{
+		display:block;
+		text-align: center;
+	}
+	.content_12_zhuangshi ul li span{
+		margin-top:27px;
+	}
+	.content_12_zhuangshi a{
+		width:250px;
+		height:50px;
+		line-height: 50px;
+		text-align: center;
+		color:#fff;
+		display:block;
+		margin: 0 auto;
+		margin-top:10px;
+		background:#da251d;
+		border-radius:4px;
+	}
+	/************首页新闻*********/
+	.content_13_xinwen{
+		margin:80px 0;
+	}
+	.content_13_xinwen_left{
+		width:48%;
+		float:left;
+	}
+	.content_13_xinwen_left img{
+		display:none;
+		width:463px;
+		height:309px;
+
+	}
+	.content_13_xinwen_left img.hover{
+		display:block;
+	}
+	.content_13_xinwen_right{
+		margin-top:-42px;
+		width: 52%;
+		float:right;
+	}
+	.content_13_xinwen .xinwen-title{
+		border-bottom:2px solid #e3e8ee;
+		margin-left:12px;
+		margin-bottom:10px;
+	}
+	.xinwen-title span{
+		width:40%;
+		float:left;
+		display:block;
+		font-size:24px;
+		padding-bottom:10px;
+	}
+	.xinwen-title a{
+		width:40%;
+		float:right;
+		text-align: right;
+		display:block;
+		font-size: 12px;
+		color:#797979;
+		margin-right:10px;
+		line-height: 30px;
+	}
+	.xinwen-con ul li{
+		padding:10px 0 10px 12px;
+	}
+	.xinwen-con ul li span{
+		display:inline-block;
+	}
+	.xinwen-con ul li .title{
+		width:87%;
+		color:#333333;
+	}
+	.xinwen-con ul li .time{
+		color:#797979;
+		font-size:12px;
+		font-weight: bold;
+	}
+	.xinwen-con ul li .xinwen-des{
+		color:#797979;
+		font-size:12px;
+	}
+	.xinwen-con ul li:hover{
+		background:#f3f3f3;
+	}
+	/***********底部**********/
+	#footer{
+		width:100%;
+		background:#333a45;
+		height:270px;
+		padding-top:50px;
+	}
+	#footer .footer{
+		width:1200px;
+		margin:0 auto;
+	}
+	.footer .footer-items{
+		float:left;
+	}
+	.footer .footer-items:nth-child(1){
+		width:15%;
+	}
+	.footer .footer-items:nth-child(2){
+		width:20%;
+	}
+	.footer .footer-items:nth-child(3){
+		width:45%;
+	}
+	.footer .footer-items:nth-child(4){
+		width:20%;
+	}
+	.footer .footer-items ul li{
+		margin-bottom:14px;
+	}
+	.footer span,
+	.footer a{
+		color:#fff;
+	}
+	.footer .footer-items span{
+		display:block;
+	}
+	.footer span{
+		margin-bottom:28px;
+	}
+	.footer .footer-items span:nth-child(1){
+		font-size:24px;
+		margin-bottom:38px;
+	}
+	.footer .footer-items img{
+		display:block;
+		width:140px;
+		height:140px;
+		margin:0 auto;
+		margin-bottom:12px;
+	}
+	.footer .erweima{
+		text-align: center;
+	}
+.icp{
+		/*width:100%;*/
+		margin: auto;
+		background:#333a45;
+		text-align: center;
+	}
+.icp span{
+		display:inline-block;
+		margin-right:20px;
+		margin-bottom:15px;
+		font-size:14px;
+		color:#fff;
+	}
+	.foot_line{
+		display:block;
+		width:99.5%;
+		border:solid 1px #da251d;
+		margin-top:-54px;
+		margin-bottom:2px;
+	}
+
+}
